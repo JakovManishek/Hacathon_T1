@@ -1,0 +1,40 @@
+# Файлы конфигурации с секретами
+.env
+*.env
+.env.local
+
+# Базы данных и файлы данных
+*.db
+*.sqlite
+*.sqlite3
+/data/
+!/data/.gitkeep  # Исключение для пустого файла-маркера
+
+# Директории Python
+__pycache__/
+*.py[cod]
+.python-version
+venv/
+env/
+.venv/
+
+# Логи и системные файлы
+*.log
+*.pid
+*.seed
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Кеши и временные файлы
+.cache/
+*.tmp
+*.temp
+
+# Скомпилированные файлы
+*.so
+*.dll
+*.exe
