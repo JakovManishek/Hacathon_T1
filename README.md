@@ -29,5 +29,4 @@ Telegram-бот для анализа и сравнения кешбек-кар�
 
 ## Установка  
 ```bash
-pip install -r requirements.txt
 git clone https://github.com/JakovManishek/Hacathon_T1.git```
